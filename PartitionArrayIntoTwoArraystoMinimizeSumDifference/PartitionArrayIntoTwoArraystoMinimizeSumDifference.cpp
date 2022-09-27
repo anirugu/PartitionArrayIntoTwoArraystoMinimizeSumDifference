@@ -2,8 +2,26 @@
 //
 
 #include <iostream>
+#include <vector>
+
+using namespace std;
+
+int minimumDifference(vector<int>&);
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	vector<int> value{ 1,2,3,4,5 };
+	minimumDifference(value);
 }
+
+
+int minimumDifference(vector<int>& nums) {
+
+	int size = nums.size();
+	if (size % 2 == 0)
+
+		return 0;
+}
+/*
+1,2,3,4
+*/
